@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/levibostian/eslint-config-node/compare/1.0.0...1.0.1) (2020-11-11)
+
+
+### Bug Fixes
+
+* ci deployment ([245c2c2](https://github.com/levibostian/eslint-config-node/commit/245c2c2e07b8e3e4b87c4cf2d4d67a6c08ba3649))
+
 # 1.0.0 (2020-11-11)
 
 
