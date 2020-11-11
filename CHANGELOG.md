@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/levibostian/eslint-config-node/compare/1.0.1...1.0.2) (2020-11-11)
+
+
+### Bug Fixes
+
+* fix order semantic-release ([c278faa](https://github.com/levibostian/eslint-config-node/commit/c278faaa0195951096053702f09b424cbf36b5ce))
+
 ## [1.0.1](https://github.com/levibostian/eslint-config-node/compare/1.0.0...1.0.1) (2020-11-11)
 
 
