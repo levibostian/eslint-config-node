@@ -1,3 +1,6 @@
+[![npm latest version](https://img.shields.io/npm/v/@levibostian/eslint-config-node/latest.svg)](https://www.npmjs.com/package/@levibostian/eslint-config-node)
+[![Actions Status](https://github.com/levibostian/eslint-config-node/workflows/Deployment/badge.svg)](https://github.com/levibostian/eslint-config-node/actions)
+
 # @levibostian/eslint-config-node
 
 [Sharable eslint config file](https://eslint.org/docs/developer-guide/shareable-configs) I use for my nodejs projects. 
