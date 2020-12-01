@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/levibostian/eslint-config-node/compare/1.0.2...1.1.0) (2020-12-01)
+
+
+### Features
+
+* add no-unused-vars rule ([9f842b2](https://github.com/levibostian/eslint-config-node/commit/9f842b21f695ef8bf4380c659d4c892083063094))
+
 ## [1.0.2](https://github.com/levibostian/eslint-config-node/compare/1.0.1...1.0.2) (2020-11-11)
 
 
