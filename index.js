@@ -7,13 +7,8 @@ module.exports = {
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "no-unused-vars": "off", // note you must disable the base rule as it can report incorrect errors
-    "@typescript-eslint/no-unused-vars": [
-      // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
-      "error",
-      {
-        "args": "none"
-      }
-    ],
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
+    "@typescript-eslint/no-unused-vars": ["error", {"args": "all", "caughtErrors": "all"}],
     "@typescript-eslint/explicit-member-accessibility": [
       "error",
       {
