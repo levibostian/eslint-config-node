@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/levibostian/eslint-config-node/compare/1.1.0...1.2.0) (2020-12-02)
+
+
+### Features
+
+* no-unused-args allow unused ([278727e](https://github.com/levibostian/eslint-config-node/commit/278727e48768f7362172a482ba51647b15ce0d52))
+
 # [1.1.0](https://github.com/levibostian/eslint-config-node/compare/1.0.2...1.1.0) (2020-12-01)
 
 

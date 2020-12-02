@@ -1,6 +1,6 @@
 {
   "name": "@levibostian/eslint-config-node",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "eslint config file I use for all my nodejs projects",
   "main": "index.js",
   "scripts": {
