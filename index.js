@@ -8,7 +8,8 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": "off",
     "no-unused-vars": "off", // note you must disable the base rule as it can report incorrect errors
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
-    "@typescript-eslint/no-unused-vars": ["error", {"args": "all", "caughtErrors": "all"}],
+    // args: none - I like knowing all of the parameter options that I have in my code. I don't like removing them and I forget they are options. 
+    "@typescript-eslint/no-unused-vars": ["error", {"args": "none", "caughtErrors": "all"}],
     "@typescript-eslint/explicit-member-accessibility": [
       "error",
       {
