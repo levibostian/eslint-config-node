@@ -51,6 +51,39 @@ module.exports = {
         "allowHigherOrderFunctions": false
       }
     ],
+    "@typescript-eslint/naming-convention": ["error", 
+        {
+          selector: 'default',
+          format: ['camelCase'],
+          leadingUnderscore: 'allow',
+          trailingUnderscore: 'allow',
+        },
+        {
+          selector: 'variable',
+          format: ['camelCase', 'UPPER_CASE'],
+          leadingUnderscore: 'allow',
+          trailingUnderscore: 'allow',
+        },
+        {
+          selector: 'typeLike',
+          format: ['PascalCase'],
+        }, 
+        {
+          selector: 'enumMember',
+          format: ['PascalCase', 'UPPER_CASE']
+        }, 
+        { 
+          // Sure, I am not the biggest fan of allowing snake_case in object properties but it's allowed because of common scenarios like creating query strings. This is a node web server. We deal with that often. 
+          // PascalCase - We use HTTP headers here. { Authorization: '' }, for example, needs to be allowed. 
+          selector: 'objectLiteralProperty',
+          format: ['camelCase', 'snake_case', 'PascalCase']
+        }, 
+        { 
+          // Type property is similar use cases to objectLiteralProperty. Type properties is defining interfaces/types in Typescript. 
+          selector: 'typeProperty',
+          format: ['camelCase', 'snake_case', 'PascalCase']
+        }
+    ],
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/ban-types": "off",
     "jest/prefer-called-with": "error",
