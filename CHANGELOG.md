@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/levibostian/eslint-config-node/compare/1.2.0...1.3.0) (2020-12-03)
+
+
+### Features
+
+* add naming rule ([760acb4](https://github.com/levibostian/eslint-config-node/commit/760acb498ac279c231416ab0878bafe6c8025557))
+
 # [1.2.0](https://github.com/levibostian/eslint-config-node/compare/1.1.0...1.2.0) (2020-12-02)
 
 
