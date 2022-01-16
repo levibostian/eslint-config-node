@@ -88,7 +88,6 @@ module.exports = {
     "@typescript-eslint/ban-types": "off",
     "jest/prefer-called-with": "error",
     "jest/prefer-hooks-on-top": "error",
-    "jest/no-truthy-falsy": "error",
     "jest/valid-title": "error"
   }
 };

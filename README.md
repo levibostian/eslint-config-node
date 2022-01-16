@@ -24,7 +24,7 @@ module.exports = {
   "plugins": ["jest"],
   "extends": ["plugin:@typescript-eslint/recommended", "plugin:jest/recommended",  "@levibostian/eslint-config-node"],
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2021,
     "sourceType": "module"
   }
 };
