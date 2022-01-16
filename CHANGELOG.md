@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/levibostian/eslint-config-node/compare/1.3.0...1.3.1) (2022-01-16)
+
+
+### Bug Fixes
+
+* update breaking jest rules ([#2](https://github.com/levibostian/eslint-config-node/issues/2)) ([cc8c0ad](https://github.com/levibostian/eslint-config-node/commit/cc8c0ad6c884acd0c5462c07018df12cc63d8573))
+
 # [1.3.0](https://github.com/levibostian/eslint-config-node/compare/1.2.0...1.3.0) (2020-12-03)
 
 
